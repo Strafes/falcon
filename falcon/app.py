@@ -739,13 +739,13 @@ class App:
         by this method to use a custom serializer in order to support
         other media types.
 
-        Note:
+        Note: LA LA LA 
             If a custom media type is used and the type includes a
             "+json" or "+xml" suffix, the default serializer will
             convert the error to JSON or XML, respectively.
 
         Note:
-            A custom serializer set with this method may not be called if the
+            A custom serializer set this method may not be called if the
             default error handler for :class:`~.HTTPError` has been overriden.
             See :meth:`~.add_error_handler` for more details.
 
